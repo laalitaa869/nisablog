@@ -1,0 +1,53 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9B8DA4; /* Tambahkan warna latar belakang untuk keseluruhan halaman */
+}
+
+nav {
+    background-color:#4e3d66;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #49454F;
+}
+
+.container {
+    padding: 20px;
+    .container p + p {
+    margin-top: 10px; /* Menambah jarak hanya antara paragraf */  }   
+    text-align: center;
+    background-color: #9B8DA4; /* Ubah warna latar belakang kontainer ke putih untuk kontras dengan teks hitam */
+    color: #000000; /* Ubah warna teks menjadi hitam */
+    border-radius: 8px; /* Tambahkan sedikit border-radius untuk estetika */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Koreksi warna bayangan */
+}
+
+/* Aturan tambahan untuk elemen teks di dalam kontainer */
+.container h1,
+.container p {
+    margin: 0;
+}
+

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masakan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h4 {
+            margin-bottom: 0;
+            margin-top: 10px; /* Memberikan jarak di atas */
+        }
+        h4 + h4 {
+            margin-top: 0;
+        }
+        /* CSS untuk memberikan jarak dalam tabel */
+        table {
+            border-collapse: collapse; /* Menghapus jarak antara border tabel */
+            margin-top: 20px; /* Memberikan jarak antara teks dan tabel */
+        }
+        th, td {
+            padding: 0px; /* Memberikan jarak dalam sel tabel */
+            text-align: left; /* Menyusun teks di sebelah kiri */
+            border: 1px solid #000; /* Menambahkan border pada tabel */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="identitas.html">Identitas</a></li>
+            <li><a href="hobi.html">Hobi</a></li>
+            <li><a href="masakan.html">Masakan</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Masakan -->
+    <div class="container">
+        <h1>Masakan Saya</h1>
+        <h4>Selamat datang di halaman Memasak saya</h4>
+        <h4>Berikut adalah beberapa masakan yang saya suka dan pernah saya masak. Berikut contoh foto-foto masakan saya:</h4>
+        
+        <!-- CSS untuk menempatkan tabel di sebelah kanan -->
+        <style>
+            .left-table {
+                float: left;
+                margin-right: 50px; /* Jarak antara dua tabel */
+            }
+
+            .right-table {
+                float: left;
+            }
+
+            .clearfix::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+
+        <div class="clearfix">
+            <!-- Tabel pertama (kiri) -->
+            <table class="left-table">
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nama Masakan</th>
+                    <th>Foto</th>
+                    <th>Resep</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Seblak</td>
+                    <td><img src="seblak.JPEG" alt="SEBLAK"></td>
+                    <td> - 3 siung bawang putih 
+                         - 5 siung bawang merah
+                         - 7 cabai merah kecil atau sesuai selera
+                         - 2 cabai merah besar
+                         - 1 ruas kencur 1 genggam 
+                         - kerupuk bawang dan makaroni
+                         - 2 buah sosis
+                         - 1 butir telur
+                         - Garam penyedap sesuai selera
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Ayam Kecap</td>
+                    <td><img src="ayamkecap.JPEG" alt="AYAM KECAP"></td>
+                    <td>- ½ ekor ayam yang sudah dipotong menjadi 6 bagian. Tambahkan ½ sendok teh garam dan 2 sendok makan air jeruk nipis.
+                        - 4 siung bawang putih, yang dimemarkan.
+                        - ½ ruas jari jahe, yang dimemarkan.
+                        - ½ butir bawang bombai, potong panjang.
+                        - 2 tangkai daun bawang, potong serong.
+                        - 5 sendok makan kecap manis.
+                        - ½ sendok teh lada putih bubuk.
+                        - ¼ sendok teh garam.
+                        - 1 buah tomat, potong memanjang.
+                        - 100 ml air.
+                        - Minyak goreng secukupnya untuk menggoreng.
+                        - 1 sendok makan margarin, untuk menumis.
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Salad Buah</td>
+                    <td><img src="salad buah.JPEG" alt="SALAD BUAH" ></td>
+                    <td>- buah apel
+                        - semangka
+                        - pir dan melon secukupnya
+                        - jelly potong dadu secukupnya
+                        - 200 ml susu cair
+                        - 50 gram keju ceddar, parut
+                        - 6 sdm mayonaise
+                        - 3 sdm gula pasir
+                    </td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Cumi Rica-Rica</td>
+                    <td><img src="cumi rica-rica.JPEG" alt="CUMI RICA-RICA"></td>
+                    <td> - 1 kg cumi basah ukuran besar
+                         - 8 siung bawang merah
+                         - 4 siung bawang putih
+                         - 12 buah cabe merah besar
+                         - 10 buah cabe keriting
+                         - 1/4 kg cabe rawit
+                         - 4 buah kemiri
+                         - 6 lembar daun jeruk
+                         - 4 lembar daun salam
+                         - 4 buah Jeruk nipis (untuk menghilangkan bau amis cumi)
+                         - 1 gelas air
+                         -  1 ruas lengkuas
+                         -  3 batang sereh
+                         -  1 ruas jahe
+                         -  5 sdm minyak goreng
+                         - Secukupnya garam 
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Tabel kedua (kanan) -->
+            <table class="right-table">
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nama Masakan</th>
+                    <th>Foto</th>
+                    <th>Resep</th>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Rica Bakso Dan Cumi</td>
+                    <td><img src="rica rica bakso dan cumi cumi.JPEG" alt="RICA-RICA BAKSO DAN CUMI-CUMI" ></td>
+                    <td>- bawang merah
+                        - bawang putih
+                        - cabe setan
+                        - wortel(opsional)
+                        - pentol
+                        - cumi cumi
+                </td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Bakso</td>
+                    <td><img src="bakso.JPEG" alt="BAKSO"></td>
+                    <td>- 500 gram daging sapi tanpa lemak
+                        - 150 gram es batu
+                        - 1 sdm bawang putih goreng, haluskan
+                        - 1 sdm bawang merah goreng, haluskan
+                        -  1 sdt gula pasir
+                        - 2 sdt garam
+                        - 1 butir putih telur
+                        - 1/2 sdt lada bubuk
+                        - 100 gram tepung sagu
+                        - 1/2 sdt baking powder
+                    </td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Cireng Kuah Seblak</td>
+                    <td><img src="cireng kuah seblak.JPEG" alt="CIRENG KUAH SEBLAK" ></td>
+                    <td>- 100 ml air
+                        - 2 siung bawang putih halus
+                        - 1 sdt ketumbar bubuk
+                        - secukupnya garam dan kaldu bubuk
+                        - 2 sdm tepung tapioka/sagu
+                        - 100 gr tepung tapioka/sagu
+                        - 1 butir bawang merah
+                        - 1 siung bawang putih
+                        - 2 cm kencur
+                        - 3 cabe keriting
+                        - sesuai selera cabe rawit
+                        - 1 gelas air
+                        - secukupnya garam dan kaldu bubuk
+                    </td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Tumis Jeroan</td>
+                    <td><img src="tumis jeroan.JPEG" alt="TUMIS JEROAN" ></td>
+                    <td>- bawang merah
+                        - bawang putih
+                        - cabe setan
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
